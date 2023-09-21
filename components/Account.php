@@ -208,7 +208,7 @@ class Account extends \System\Classes\BaseComponent
                 ['first_name', 'lang:igniter.user::default.settings.label_first_name', 'required|between:1,48'],
                 ['last_name', 'lang:igniter.user::default.settings.label_last_name', 'required|between:1,48'],
                 ['email', 'lang:igniter.user::default.settings.label_email', 'required|email:filter|max:96|unique:customers,email'],
-                ['password', 'lang:igniter.user::default.login.label_password', 'required|min:6|max:32|same:password_confirm'],
+                ['password', 'lang:igniter.user::default.login.label_password', 'required|min:8|max:40|same:password_confirm'],
                 ['password_confirm', 'lang:igniter.user::default.login.label_password_confirm', 'required'],
                 ['telephone', 'lang:igniter.user::default.settings.label_telephone', 'required'],
                 ['newsletter', 'lang:igniter.user::default.login.label_subscribe', 'integer'],
